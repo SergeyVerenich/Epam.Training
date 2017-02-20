@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="head">
+
+        <div class="head__form">
+            Form Action
+        </div>
+        <div class="head__name">
+            _mc4wp_action
+        </div>
+        <div class="head__text">
+            This field will allow your visitors to choose whether they would like to subscribe or unsubscribe
+        </div>
+    </div>
+    <div class="form">
+        <form name="myForm" action="myForm.php">
+            <div class="form__label">
+                Field Label
+                <p><input type="text" class="form__label--action" name="Form Action" value="Form action"></p>
+            </div>
+            <div class="form__choice">
+                Choice Type
+                <p> <select class="form__choice--type" name="Radio Buttons" size="1">
+    <option value="btn">Radio Buttons</option>
+    <option value="btn">Radio Buttons</option>
+    <option value="btn" selected>Radio Buttons</option>
+    <option value="btn">Radio Buttons</option>
+    </select></p>
+            </div>
+            <div class="form__choices">
+                Choices
+                <div class="form__choices--border">
+                    <p> <input type="radio" class="form__choices--button" name="radio" value="Radio Buttons" checked>
+                        <input type="text" class="form__choices--text" name="Form Action" value="Subscribe">
+                    </p>
+                    <p><input type="radio" class="form__choices--button" name="radio" value="Radio Buttons">
+                        <input type="text" class="form__choices--text" name="Form Action" value="Unsubscribe">
+                    </p>
+                </div>
+            </div>
+            <div class="form__submit">
+                <p> <input type="checkbox" checked> Wrap in paragraph tags?</p>
+                <p><input type="submit" class="form__submit--button" value="Add to form">
+
+                </p>
+            </div>
+    </div>
+
+    </form>
+</body>
+
+</html>

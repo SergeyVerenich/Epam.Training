@@ -1,0 +1,23 @@
+html {
+  font-size: 20px;
+  line-height: 3;
+  background-color: rgba(100, 100, 100, 0.3);
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+div {
+  font-size: 2em;
+  line-height: 2em;
+  color: blue;
+  text-transform: uppercase;
+}
+
+div:nth-child(even) {
+  color: red;
+  font-size: 1em;
+}
+
+div:nth-child(n+5) {
+  text-transform: lowercase;
+}
